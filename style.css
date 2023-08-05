@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(2, 99, 184);
+}
+h1{
+    text-align: center;
+}
+#theSlider {
+    width: 60vw;
+    height: 80vh;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(pictures/secoundficture.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: sliderOne;
+    animation-duration: 13.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sliderOne {
+    0%  {background-image: url(pictures/firsrpicture.jpg);}
+    11%  {background-image: url(pictures/firsrpicture.jpg);}
+    11.01%  {background-image: url(pictures/hiddenadd.webp);}
+    11.1%  {background-image: url(pictures/secoundficture.jpg);}
+    22.1%  {background-image: url(pictures/secoundficture.jpg);}
+    22.2%  {background-image: url(pictures/thirdpicture.webp);}
+    33.2%  {background-image: url(pictures/thirdpicture.webp);}
+    33.3%  {background-image: url(pictures/fourthpicture.jpg);}
+    44.3%  {background-image: url(pictures/fourthpicture.jpg);}
+    44.4%  {background-image: url(pictures/fifthpicture.jpg);}
+    55.4%  {background-image: url(pictures/fifthpicture.jpg);}
+    55.5%  {background-image: url(pictures/sixthpicture.webp);}
+    66.5%  {background-image: url(pictures/sixthpicture.webp);}
+    66.6%  {background-image: url(pictures/seventhpicture.jpg);}
+    77.6%  {background-image: url(pictures/seventhpicture.jpg);}
+    77.7%  {background-image: url(pictures/eighthpicture.webp);}
+    88.7%  {background-image: url(pictures/eighthpicture.webp);}
+    88.8%  {background-image: url(pictures/ninthpicture.jpg);}
+    99.9%  {background-image: url(pictures/ninthpicture.jpg);}
+
+
+    
+}

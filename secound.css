@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(2, 99, 184);
+}
+h1{
+    text-align: center;
+}
+#threeSlider{
+    width: 90vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sliders{
+    width: 28vw;
+    height: 40vh;
+    background-attachment: local;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#slider1{
+
+    background-image: url(pictures/firsrpicture.jpg);
+    animation-name: sliderTwo1 ;
+    
+
+
+}
+#slider2{
+
+    background-image: url(pictures/secoundficture.jpg);
+    animation-name: sliderTwo2 ;
+
+}#slider3{
+
+    background-image: url(pictures/thirdpicture.webp);
+    animation-name: sliderTwo3 ;
+
+}
+@keyframes sliderTwo1 {
+    0%  {background-image: url(pictures/firsrpicture.jpg);}
+    33.2%  {background-image: url(pictures/firsrpicture.jpg);}
+    33.3%  {background-image: url(pictures/fourthpicture.jpg);}
+    66.2%  {background-image: url(pictures/fourthpicture.jpg);}
+    66.6%  {background-image: url(pictures/seventhpicture.jpg);}
+    99.9%  {background-image: url(pictures/seventhpicture.jpg);}
+    100%  {background-image: url(pictures/firsrpicture.jpg);}
+
+
+
+    
+}
+@keyframes sliderTwo2 {
+    0%  {background-image: url(pictures/secoundficture.jpg);}
+    33.2%  {background-image: url(pictures/secoundficture.jpg);}
+    33.3%  {background-image: url(pictures/fifthpicture.jpg);}
+    66.2%  {background-image: url(pictures/fifthpicture.jpg);}
+    66.6%  {background-image: url(pictures/eighthpicture.webp);}
+    99.9%  {background-image: url(pictures/eighthpicture.webp);}
+    100%  {background-image: url(pictures/secoundficture.jpg);}
+
+
+
+    
+}
+@keyframes sliderTwo3 {
+    0%  {background-image: url(pictures/thirdpicture.webp);}
+    33.2%  {background-image: url(pictures/thirdpicture.webp);}
+    33.3%  {background-image: url(pictures/sixthpicture.webp);}
+    66.2%  {background-image: url(pictures/sixthpicture.webp);}
+    66.6%  {background-image: url(pictures/ninthpicture.jpg);}
+    99.9%  {background-image: url(pictures/ninthpicture.jpg);}
+    100%  {background-image: url(pictures/thirdpicture.webp);}
+
+
+
+    
+}
